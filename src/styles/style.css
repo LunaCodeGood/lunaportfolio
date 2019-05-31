@@ -1,6 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     color: #454545;
+    background-color: rgb(245, 245, 253);
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    width: 80%;
     max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    color:rgb(0, 110, 255);
+}
+.header p:first-of-type {
+    font-family: satisfy, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+
+}
+.header p:second-of-type {
+    letter-spacing: .1em;
+}
+.header img {
+    float: left;
+    width: 80px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+navbar {
+    margin-top: 20px;
+    
+}
+.navbarList {
+    display: flex;
+    flex-direction: row;
+
+    color:rgb(0, 110, 255);
+    list-style: none;
+}
+.navbarList li {
+    margin-right: 20px;
+    
+    font-size: 12px;
+    letter-spacing: .2em;
+}
+.navbar a:link {
+    text-decoration: none;
+    color:rgb(0, 110, 255);
+}
+.navbar a:visited {
+    color:rgb(0, 110, 255);
+}
+.navbar a:hover {
+    color: rgb(250, 121, 143)
+}
+.currentPage {
+    color: rgb(250, 121, 143);
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.content {
+    margin-top: 40px;
+    line-height: 1.4em;
+
 }
